@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="h.jpg" />
+    <None Remove="mi.png" />
+    <None Remove="x.png" />
+    <None Remove="x1.png" />
+    <None Remove="ВыбДисп.png" />
+    <None Remove="ВыбДисп1.png" />
+    <None Remove="медиана.png" />
+    <None Remove="медиана1.png" />
+    <None Remove="МНК.png" />
+    <None Remove="мода.png" />
+    <None Remove="мода1.png" />
+    <None Remove="размах_вариации.png" />
+    <None Remove="среднеелинейноеотклонение.png" />
+    <None Remove="среднеелинейноеотклонение1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="h.jpg" />
+    <Resource Include="mi.png" />
+    <Resource Include="x.png" />
+    <Resource Include="x1.png" />
+    <Resource Include="ВыбДисп.png" />
+    <Resource Include="ВыбДисп1.png" />
+    <Resource Include="медиана.png" />
+    <Resource Include="медиана1.png" />
+    <Resource Include="МНК.png" />
+    <Resource Include="мода.png" />
+    <Resource Include="мода1.png" />
+    <Resource Include="размах_вариации.png" />
+    <Resource Include="среднеелинейноеотклонение.png" />
+    <Resource Include="среднеелинейноеотклонение1.png" />
+  </ItemGroup>
+
+</Project>
